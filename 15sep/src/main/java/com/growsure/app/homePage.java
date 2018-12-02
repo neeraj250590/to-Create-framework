@@ -1,14 +1,22 @@
 package com.growsure.app;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.Test;
 
 public class homePage {
 	
 	
 	
+	private static final String FileName = null;
 	@FindBy(xpath="")        // Page factory concept
 	WebElement text;
 	
@@ -44,4 +52,18 @@ public class homePage {
 			System.out.println("Failed - Check url is not matched");
 		}
 	}
+	
+	
+		public static String capture(WebDriver driver, String screenshotName, String ResultFolderPath) throws IOException {
+			
+			TakesScreenshot ts = (TakesScreenshot) driver;
+			File source = ts.getScreenshotAs(OutputType.FILE);
+			//String FileName = screenshotName + randomNum() + ".jpg";
+			String dest = ResultFolderPath + "\\" + screenshotName + ".jpg";
+			File destination = new File(dest);
+			FileUtils.copyFile(source, destination);
+			return FileName;
+		}
+
+	
 }

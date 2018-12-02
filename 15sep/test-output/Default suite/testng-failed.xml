@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.growsure.app.verifyHeaderContent">
+      <class name="com.growsure.app.takeScreenShotConcept">
         <methods>
+          <include name="takeScreenSht"/>
           <include name="toInvokeURL"/>
           <include name="toCloseBrowser"/>
-          <include name="verifyHeader"/>
         </methods>
-      </class> <!-- com.growsure.app.verifyHeaderContent -->
+      </class> <!-- com.growsure.app.takeScreenShotConcept -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

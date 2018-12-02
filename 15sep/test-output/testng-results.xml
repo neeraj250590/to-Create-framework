@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="572" started-at="2018-12-01T18:13:52Z" finished-at="2018-12-01T18:13:52Z">
+  <suite name="Default suite" duration-ms="879" started-at="2018-12-02T06:17:07Z" finished-at="2018-12-02T06:17:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="572" started-at="2018-12-01T18:13:52Z" finished-at="2018-12-01T18:13:52Z">
-      <class name="com.growsure.app.verifyHeaderContent">
-        <test-method status="PASS" signature="toInvokeURL()[pri:0, instance:com.growsure.app.verifyHeaderContent@5e5792a0]" name="toInvokeURL" is-config="true" duration-ms="16324" started-at="2018-12-01T18:13:36Z" finished-at="2018-12-01T18:13:52Z">
+    <test name="Default test" duration-ms="879" started-at="2018-12-02T06:17:07Z" finished-at="2018-12-02T06:17:08Z">
+      <class name="com.growsure.app.takeScreenShotConcept">
+        <test-method status="PASS" signature="toInvokeURL()[pri:0, instance:com.growsure.app.takeScreenShotConcept@1bce4f0a]" name="toInvokeURL" is-config="true" duration-ms="30497" started-at="2018-12-02T06:16:36Z" finished-at="2018-12-02T06:17:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toInvokeURL -->
-        <test-method status="PASS" signature="imageVerify()[pri:0, instance:com.growsure.app.verifyHeaderContent@5e5792a0]" name="imageVerify" duration-ms="172" started-at="2018-12-01T18:13:52Z" finished-at="2018-12-01T18:13:52Z">
+        <test-method status="PASS" signature="takeScreenSht()[pri:0, instance:com.growsure.app.takeScreenShotConcept@1bce4f0a]" name="takeScreenSht" duration-ms="831" started-at="2018-12-02T06:17:07Z" finished-at="2018-12-02T06:17:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- imageVerify -->
-        <test-method status="PASS" signature="verifyHeader()[pri:0, instance:com.growsure.app.verifyHeaderContent@5e5792a0]" name="verifyHeader" duration-ms="361" started-at="2018-12-01T18:13:52Z" finished-at="2018-12-01T18:13:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHeader -->
-        <test-method status="PASS" signature="toCloseBrowser()[pri:0, instance:com.growsure.app.verifyHeaderContent@5e5792a0]" name="toCloseBrowser" is-config="true" duration-ms="856" started-at="2018-12-01T18:13:53Z" finished-at="2018-12-01T18:13:53Z">
+        </test-method> <!-- takeScreenSht -->
+        <test-method status="PASS" signature="toCloseBrowser()[pri:0, instance:com.growsure.app.takeScreenShotConcept@1bce4f0a]" name="toCloseBrowser" is-config="true" duration-ms="972" started-at="2018-12-02T06:17:08Z" finished-at="2018-12-02T06:17:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toCloseBrowser -->
-      </class> <!-- com.growsure.app.verifyHeaderContent -->
+      </class> <!-- com.growsure.app.takeScreenShotConcept -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

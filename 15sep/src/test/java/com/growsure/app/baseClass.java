@@ -9,10 +9,10 @@ public class baseClass {
 	public WebDriver driver;
 	@BeforeSuite
 	public void toInvokeURL() {
-		System.setProperty("webdriver.chrome.driver", "F:\\seleniumjar\\15sepMaven\\15sep\\Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\git\\to-Create-framework\\15sep\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://gsure.in/");
-		//driver.get("https://gsure.in/");
+		//driver.get("https://gsure.in/");https://github.com/shaktiautoqa/testGitHub.git
 	}
 	
 	@AfterSuite
