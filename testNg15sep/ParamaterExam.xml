@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<parameter name="url" value="https://unduit.com/uat"/>
+	<parameter name="UserID" value="cpr@mailinator.com"/>
+	<parameter name="pass" value="123456"/>
+	<test thread-count="5" name="Test">
+
+		<classes>
+			<class name="testNGAnotherPackage.ParameterExample" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

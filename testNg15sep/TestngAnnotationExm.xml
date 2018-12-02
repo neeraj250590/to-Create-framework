@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+	
+		<classes>
+		<class name="testNGAnotherPackage.TestNgAnnotationExample" />
+		<class name="testNGAnotherPackage.TestNgAnnotationExample2" />    <!-- Priority is giving on alpahbetic basis  -->
+	</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
