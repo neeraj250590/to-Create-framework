@@ -9,7 +9,8 @@ public class verifyHeaderContent extends baseClass {
 		try {
 			homePage h = new homePage();
 			h.verifyHeaderContent(driver);
-		} catch (Exception e) {
+		} 
+		catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
 
@@ -19,11 +20,7 @@ public class verifyHeaderContent extends baseClass {
 	public void imageVerify() {
 		homePage h = new homePage();
 		h.verifyImageContent(driver);
-		
-		
-		
-		
-		
+	
 	}
 
 }
