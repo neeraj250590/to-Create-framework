@@ -12,6 +12,7 @@ public class baseClass {
 		System.setProperty("webdriver.chrome.driver", "F:\\seleniumjar\\15sepMaven\\15sep\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://gsure.in/");
+		//driver.get("https://gsure.in/");
 	}
 	
 	@AfterSuite
